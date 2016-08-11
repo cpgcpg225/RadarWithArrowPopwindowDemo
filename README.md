@@ -10,3 +10,6 @@
  * 6、文本点击区域自定义控件中可以设置
  
  欢迎各位一起交流~~~
+![image](https://github.com/cpgcpg225/RadarWithArrowPopwindowDemo/raw/master/5.jpg)
+![image](https://github.com/cpgcpg225/RadarWithArrowPopwindowDemo/raw/master/6.jpg)
+![image](https://github.com/cpgcpg225/RadarWithArrowPopwindowDemo/raw/master/7.jpg)
