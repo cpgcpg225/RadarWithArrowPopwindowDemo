@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.example.radar.radarwitharrowpopwindowdemo.ArrowTextView
+        android:id="@+id/mArrowTextView"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="体验金本金为仅用于体验标体验投资所用，在收益结束后本金将收回。"
+        android:textSize="13sp"
+        android:textColor="#7c7c7c"
+        app:backgroundColor="#E7E7E7"
+        app:arrowOrientation="bottom"
+        app:arrowLocation="0.75"
+        app:contentRadius="5dp"
+        app:arrowWidth="16dp"
+        app:arrowHeight="16dp" />
+
+</LinearLayout>
