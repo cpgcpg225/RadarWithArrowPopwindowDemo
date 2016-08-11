@@ -23,20 +23,18 @@ import java.util.ArrayList;
  */
 public class RadarView extends View implements View.OnTouchListener {
     /**数据个数*/
-    private int count =7;
+    private int count =5;
     /**标题*/
-    private String[] titles={"尽调能力","催收能力","履约能力","活跃度","风险承受能力","攻击力","防御力"};
+    private String[] titles={"尽调能力","催收能力","履约能力","活跃度","风险承受能力"};
     /**标题说明*/
     private String[] titleDescs={"是指你实地尽调的能力与质量，借款人对你的评价、尽调标是否按时还款等都将影响你的得分",
             "我们将综合考察你对逾期标的催收态度及成果",
             "你对逾期标是否及时垫付将影响你的履约能力",
             "是指你在担保、抢单尽调的次数及金额",
-            "我们将综合考虑你在平台的资产信息及担保情况来判断你的风险承受能力",
-            "攻击力决定你的打怪伤害",
-            "防御力决定你承受伤害的能力",
+            "我们将综合考虑你在平台的资产信息及担保情况来判断你的风险承受能力"
     };
     /**各维度分值*/
-    private double[] data = {100,20,90,30,70,95,100};
+    private double[] data = {100,20,90,30,70};
     /**增加的触摸区域*/
     private final float addLength=30f;
 
