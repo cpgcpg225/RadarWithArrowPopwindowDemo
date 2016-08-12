@@ -27,7 +27,16 @@ public class RadarPointTextBean {
      */
     public float endY;
     /**
-     * 箭头显示位置
+     * 标题
      */
-    public float arrowLocation;
+    public String title;
+    /**
+     * 得分
+     */
+    public int score;
+    public RadarPointTextBean(String title, String titleDesc, int score) {
+        this.titleDesc = titleDesc;
+        this.title = title;
+        this.score = score;
+    }
 }
